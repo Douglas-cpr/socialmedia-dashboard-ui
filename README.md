@@ -4,10 +4,10 @@
 </p>
 
 <h2>LIGHT THEME</h2>
-<img src=".github/light-theme.png">
+<img src=".github/light-theme.PNG">
 
 <h2>DARK THEME</h2>
-<img src=".github/dark-theme.png">
+<img src=".github/dark-theme.PNG">
 
 <br>
 
