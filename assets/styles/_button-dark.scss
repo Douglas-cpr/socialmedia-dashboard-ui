@@ -1,0 +1,87 @@
+.darkmode-field {
+    display: flex;
+    justify-content: space-between;
+
+    align-items: center;
+
+    width: 180px;
+    height: 30px;
+
+
+
+    span {
+        color: $dark-grayish;
+        font-weight: bold;
+    }
+
+    .button-field {
+
+        &.on {
+
+            background: linear-gradient(-45deg, hsl(210, 78%, 56%), hsl(146, 68%, 55%));
+    
+            button {
+                transition: .5s;
+                margin-left: 2vw;
+
+                background: $desaturated-blue-dark;
+            }
+        }
+
+        cursor: pointer;
+
+        padding: .1rem .2rem;
+
+        width: 70px;
+        height: 30px;
+        
+        background: hsl(230, 22%, 74%);
+        border-radius: 2rem;
+
+        button {
+            transition: .5s;
+            width: 25px;
+            height: 25px;
+            background: $light-grayish;
+            cursor: pointer;
+
+            outline: none;
+            border-radius: 99px;
+            border: none;
+        }
+    }
+
+    @media(max-width: $mobile) {
+        & {
+            width: 100px;
+
+            flex-direction: column;
+            display: flex;
+
+            span {
+                font-size: .8rem;
+                padding-bottom: 5px;
+            }
+        }
+
+
+
+        .button-field {
+
+            width: 50px;
+            height: 25px;
+
+            button {
+                width: 20px;
+                height: 20px;
+            }
+
+            &.on {
+                button {
+                    margin-left: 24px;
+                }
+            }
+
+        }
+    }
+}

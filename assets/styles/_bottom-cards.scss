@@ -1,0 +1,73 @@
+.bottom-cards {
+    display: flex;
+    flex-wrap: wrap;
+
+    margin-left: 4vw;
+    align-items: center;
+    font-size: 95.5%;
+
+    .overview-today {
+        background: $light-grayish;
+        width: 290px;
+        height: 150px;
+
+        margin: 1rem;
+        padding: 1rem;
+        border-radius: .3rem;   
+
+        &.dark {
+            background: $desaturated-blue-dark;
+
+            .content {
+                &.bottom {
+                    color: white
+                }
+
+
+                
+            }
+        }
+
+        .today-information {
+            @include displayFlex();
+    
+            padding: 1rem;
+            font-weight: bold;
+            
+            span {
+                margin: 0 .4rem;
+            }
+    
+            &.pos {
+                color: $green;
+            }
+    
+            &.neg {
+                color: $bright-red;
+            }
+
+
+            
+        }
+
+        .content {
+            display: flex;
+            justify-content: space-between;
+            padding: .3rem;
+    
+            font-weight: bold;
+            color: $dark-grayish;
+
+            &.bottom {
+                color: black;
+                margin-top: 2.5rem;
+
+                padding: .3rem;
+    
+                span:first-child {
+                    font-size: 38px;
+                }
+            }
+        }
+    }
+}

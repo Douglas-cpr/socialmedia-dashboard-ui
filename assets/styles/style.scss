@@ -1,0 +1,182 @@
+@import 'variables';
+@import 'global';
+
+@import 'header';
+@import 'button-dark';
+@import 'top-cards';
+@import 'bottom-cards';
+
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap');
+
+// :root {
+//     --dark-blue: hsl(230, 17%, 14%);
+//     --dark-grayish: hsl(228, 12%, 44%);
+//     --desaturated-blue: hsl(228, 34%, 66%);
+//     --light-grayish: hsl(227, 47%, 96%);
+//     --pale-blue: hsl(225, 100%, 98%);
+//     --bright-red: hsl(356, 69%, 56%);
+//     --green: hsl(163, 72%, 41%);
+// }
+
+// * {
+//     margin: 0;
+//     padding: 0;
+//     box-sizing: border-box;
+// }
+
+// body {
+//     font-family: 'Inter', sans-serif;
+
+//     display: flex;
+//     justify-content: center;
+//     align-items: center;
+    
+// }
+
+// .container {
+//     height: 90vh;
+//     width: 100vw;
+// }
+
+// header {
+//     display: flex;
+//     justify-content: space-between;
+
+//     background: var(--pale-blue);
+
+//     height: 30vh;
+//     padding: 5vh 18vw;
+// }
+
+// .information {
+//     margin: -60px 235px;
+// }
+
+// .general-information {
+//     display: flex;
+//     align-items: center;
+//     justify-content: center;
+// }
+
+// .social-card {
+//     width: 15vw;
+//     height: 25vh;
+
+//     margin-inline: 1rem;
+
+//     background: var(--light-grayish);
+//     border-radius: .3rem;
+
+//     text-align: center;
+//     padding: 1.5rem 0;
+//     border-top: 4px solid;
+// }
+
+// .social-card.facebook {
+//     border-color: hsl(208, 92%, 53%);
+// }
+
+// .social-card.twitter {
+//     border-color: hsl(203, 89%, 53%);
+// }
+
+// .social-card.instagram {
+//     border-color: hsl(286, 44%, 47%);
+// }
+
+// .social-card.youtube {
+//     border-color:hsl(348, 97%, 39%)
+// }
+
+// .user-followers {
+//     display: flex;
+//     flex-direction: column;
+
+//     padding: .3rem 1rem;
+// }
+
+// .user-followers :first-child {
+//     font-size: 40px;
+//     font-weight: bold;
+// }
+
+// .user-followers  :nth-child(2){
+
+//     color: var(--dark-grayish);
+
+//     padding-top: .5rem;
+
+//     letter-spacing: 5px;
+//     text-transform: uppercase;
+// }
+
+// .social-user {
+//     font-weight: bold;
+    
+//     display: flex;
+//     align-items: center;
+//     justify-content: center;
+// }
+
+// .social-user > span {
+//     padding: 1rem .6rem;
+// }
+
+// .facebook-icon {
+//     border: 50px;
+// }
+
+// .today-information {
+//     display: flex;
+//     align-items: center;
+//     justify-content: center;
+
+//     padding: 1rem;
+
+//     font-weight: bold;
+// }
+
+// .today-information span {
+//     margin: 0 .4rem;
+// }
+
+// .today-information.pos {
+//     color: var(--green);
+// }
+
+// .today-information.neg {
+//     color: var(--bright-red);
+// }
+
+// h2 {
+//     padding: 3vh 5vw;
+//     color: var(--dark-grayish);
+// }
+
+// .detailed-information {
+//     display: flex;
+//     flex-wrap: wrap;
+
+//     margin-left: 4vw;
+//     align-items: center;
+//     font-size: 95.5%;
+
+// }
+
+// .detailed-information > div {
+//     background: var(--light-grayish);
+//     width: 290px;
+//     height: 150px;
+
+//     margin: 1rem;
+//     padding: 1rem;
+//     border-radius: .3rem;    
+// }
+
+
+
+
+
+
+

@@ -1,0 +1,39 @@
+@mixin displayFlex() {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Inter', sans-serif;
+
+    @include displayFlex();
+
+    &.dark {
+        background: $dark-blue;
+    }
+    
+    .container {
+        height: 90vh;
+        width: 100vw;
+    }
+  
+    main {
+        margin: -4% 12.5%;
+    }
+
+
+
+}
+
+h2 {
+    padding: 3vh 5vw;
+    color: $dark-grayish;
+}
+

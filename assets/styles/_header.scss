@@ -1,0 +1,29 @@
+header {
+    display: flex;
+    justify-content: space-between;
+
+    background: $pale-blue;
+
+    padding: 5vh 18vw;
+    height: 35%;
+
+    
+    &.dark {
+        color: white;
+        background: $very-darkblue-top;
+        
+        small {
+            color: $dark-grayish
+        }
+    }
+
+    @media (max-width: $mobile) {
+        h1 {
+            font-size: 1.3rem;
+        }
+
+        & {
+            padding: 4vh 5vw;
+        }
+    }
+}
