@@ -14,7 +14,6 @@ btnDark.addEventListener('click', () => {
 
     pageComponents.forEach(el => {
         darkMode(el);
-        console.log('entrou')
     });
 })
 

@@ -69,5 +69,11 @@
                 }
             }
         }
+
+    }
+    @media (max-width: $mobile) {
+        & {
+            justify-content: center;
+        }
     }
 }
